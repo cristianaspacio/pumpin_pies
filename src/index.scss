@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.bgimage {
+  width: 100%;
+  height: 500px;
+  background: url('https://img.freepik.com/free-photo/set-sports-attributes_23-2147778577.jpg?size=626&ext=jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bgimage h5 {
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+
+.link-effect-3 {
+	a{
+		padding: 10px 0;
+		margin: 0 20px;
+		color: #797878;
+		text-shadow: none;
+		position: relative;
+    text-decoration: none;
+		&::before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			overflow: hidden;
+			padding: 7px 0;
+			max-width: 0;
+			border-bottom: 2px solid #fff;
+			color: black;
+			content: attr(data-hover);
+			-webkit-transition: max-width 0.5s;
+			-moz-transition: max-width 0.5s;
+			transition: max-width 0.5s;
+		}
+		&:hover{
+			&::before{
+				max-width: 100%;
+			}
+		}
+	}
+}
+
+.filter_btn {
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: none !important;
+}
+
+.filter_btn:hover {
+  color: black !important;
+  background: none !important;
+}
+
+.filter_btn:focus,.filter_btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
