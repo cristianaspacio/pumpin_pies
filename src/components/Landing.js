@@ -1,3 +1,6 @@
+/**
+  Landing Component that is the landing page
+**/
 import React from 'react';
 import Hero from './Hero';
 import Container from 'react-bootstrap/Container';

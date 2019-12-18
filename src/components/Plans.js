@@ -1,3 +1,6 @@
+/**
+  Plans Component that handles rendering the plans
+**/
 import React, { Component } from 'react';
 import Plan from './Plan'
 

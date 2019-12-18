@@ -1,3 +1,6 @@
+/**
+  Plan Component which is the cards with workout/meal plans
+**/
 import React, { Component } from 'react';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';

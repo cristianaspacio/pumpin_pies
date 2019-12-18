@@ -8,6 +8,7 @@ import Workout from "./components/Workout";
 
 function App() {
   return (
+    //Handling Routing for different components
     <Router>
       <React.Fragment>
         <Header />

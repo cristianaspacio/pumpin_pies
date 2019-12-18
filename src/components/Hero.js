@@ -1,3 +1,6 @@
+/**
+  Hero Component that appears in the landing page (the big picture)
+**/
 import React from "react";
 
 function Hero() {

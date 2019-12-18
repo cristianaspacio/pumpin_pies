@@ -1,10 +1,13 @@
+/**
+  Footer Component that has useful links and info
+**/
 import React from 'react';
 
 function Footer() {
   return (
     <footer className="bg-light page-footer font-small blue pt-4 mt-5">
     <div className="container-fluid text-center text-md-left">
-      <div className="row link-effect-3">
+      <div className="row link-effect">
         <div className="col-md-6 mt-md-0 mt-3">
           <h5 className="text-uppercase">Pumpin Pies</h5>
           <p>Fitness planning made easy.</p>

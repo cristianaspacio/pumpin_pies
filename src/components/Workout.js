@@ -1,3 +1,6 @@
+/**
+  Workout Component that is the Workout page
+**/
 import React, { Component } from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -9,6 +12,11 @@ import Filter from './Filter';
 import Plans from './Plans'
 
 export class Workout extends Component {
+  /**
+    state handles properties
+      showFilter: boolean
+      plans: Array of plans
+  **/
   state = {
     showFilter: false,
     plans: [
@@ -39,7 +47,7 @@ export class Workout extends Component {
       }
     ]
   }
-
+  //showFilter function that handles rendering the filter when clicking the filter button
   showFilter = (e) => {
     e.preventDefault();
     this.setState({ showFilter: !this.state.showFilter});
